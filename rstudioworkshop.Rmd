@@ -1,0 +1,37 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+  Packages
+```{r}
+library(haven)
+library(ggplot2)
+library(dplyr)
+library(gt)
+```
+import
+```{r}
+adae <- read_sas("https://github.com/elong0527/r4csr/raw/master/data-adam/adae.sas7bdat", 
+                 NULL)
+adsl <- read_sas("https://github.com/elong0527/r4csr/raw/master/data-adam/adsl.sas7bdat", 
+                 NULL)
+
+```
+
+
+Prep Data
+```{r}
+
+```
+
+AE dataset
+Viz
+```{r}
+
+```
+Table
+```{r}
+
+```
+
